@@ -1,0 +1,5 @@
+N, k = map(int, input().split())
+scores = list(map(int, input().split()))
+
+scores.sort(reverse=True)  # 내림차순 정렬
+print(scores[k - 1])       # k번째 점수가 커트라인
