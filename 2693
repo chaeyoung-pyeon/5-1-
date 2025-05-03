@@ -1,0 +1,5 @@
+T = int(input())
+for _ in range(T):
+    A = list(map(int, input().split()))
+    A.sort(reverse=True)
+    print(A[2])  # 0-based 인덱스이므로 세 번째는 index 2
